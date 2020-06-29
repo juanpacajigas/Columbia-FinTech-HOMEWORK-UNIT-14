@@ -2,7 +2,7 @@
 
 In this assignment, I used deep learning recurrent neural networks to model bitcoin closing prices. One model used the FNG indicators to predict the closing price while the second model used a window of closing prices to predict the nth closing price.
 
-I used 6 scenarios for each model. In the first set (3 scenarios), I used a network architecture with 3 layers, 5 nodes, and a drop rate of 20%. The three scenarios were defined by changing window sizes: 1 day, 5 days, and 10 days. These are the results for each model:
+I used 6 scenarios for each model. In the first set (3 scenarios), I used a network architecture with 3 layers, 5 nodes, and a drop rate of 20%. The three scenarios were defined by changing window sizes: 1 day, 5 days, and 10 days. These are the results (loss) for each model:
 
 #### *CLosing prices model (3 layers)*:
 evaluate_1d_window_3layers = 0.0148<br />
